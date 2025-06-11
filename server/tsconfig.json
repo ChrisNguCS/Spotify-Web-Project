@@ -2,10 +2,16 @@
     "compilerOptions": {
         "esModuleInterop": true,
         "skipLibCheck": true,
-        "target": "es2022",
+        "target": "ESNext",
         "allowJs": true,
         "moduleDetection": "force",
         "isolatedModules": true,
-        "verbatimModuleSyntax": true
+        "module": "NodeNext",
+        "moduleResolution": "nodenext",
+        "noEmit": true,
+        "allowImportingTsExtensions": true,
+        "outDir": "dist",
+        "lib": [ "esnext" ],
+        "types": [ "node" ],
     }
 }
